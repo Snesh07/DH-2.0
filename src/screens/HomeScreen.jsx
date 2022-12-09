@@ -1,6 +1,6 @@
 import React from 'react'
-import { BannerSlider } from '../BannerSlider';
-import { Navbar } from '../Navbar'
+import { BannerSlider } from '../components/BannerSlider';
+import { Navbar } from '../components/Navbar'
 
 export const HomeScreen = () => {
   return (

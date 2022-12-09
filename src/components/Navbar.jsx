@@ -23,7 +23,7 @@ export const Navbar = () => {
                 <div className='nav_content'>
                     <div className='dh_logo'>
                         <div className='nav_logo'>
-                            <img src='images/DH_logo.png' alt='DH logo' />
+                            <img src='./images/DH_logo.png' alt='DH logo' />
                         </div>
                         <div className='nav_logo_name'>
                             <h1>DifferHome</h1>

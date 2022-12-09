@@ -1,6 +1,6 @@
 .banner {
     background-size: cover;
-    background-image: url('../public/Images/banner1.jpg');
+    background-image: url('/public/Images/banner1.jpg');
     background-position: center center;
     height: 600px;
     position: relative;

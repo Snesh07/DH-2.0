@@ -1,0 +1,61 @@
+.banner {
+    background-size: cover;
+    background-image: url('../public/Images/banner1.jpg');
+    background-position: center center;
+    height: 600px;
+    position: relative;
+    object-fit: contain;
+    color: white;
+
+    /* animation: changeBanner 20s linear infinite; */
+}
+
+/* @keyframes changeBanner {
+    0%{
+        background-image:  url('../public/Images/banner1.jpg');
+    }
+    25%{
+        background-image:  url('../public/Images/banner2.jpg');
+    }
+    50%{
+        background-image:  url('../public/Images/banner3.jpg');
+    }
+    75%{
+        background-image:  url('../public/Images/banner4.jpg');
+    }
+    100%{
+        background-image:  url('../public/Images/banner1.jpg');
+    }
+} */
+.banner_contact_info_parent {
+    padding: 55px;
+}
+
+.banner_contact_info_parent hr {
+    border: 0.5px solid #fff;
+}
+
+.banner_contact_info {
+    padding: 5px;
+    display: float;
+}
+
+.banner_email_phone {
+    float: left;
+    left: 0;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.banner_email_phone a{
+    text-decoration: none;
+    font-weight: 300;
+}
+.banner_socialmedia_icons {
+    float: right;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.banner_socialmedia_icons a{
+    padding-right: 20px;
+}

@@ -6,6 +6,7 @@
     position: relative;
     object-fit: contain;
     color: white;
+    margin: 0;
 
     /* animation: changeBanner 20s linear infinite; */
 }

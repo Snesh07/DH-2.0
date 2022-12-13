@@ -7,30 +7,29 @@ const SearchBar = () => {
         <div className="search-1">
           <div className="input-type-property city" >
             <span >City</span>
-            <img src="images/polygon 8.svg"></img>
+            <img src="images/polygon 8.svg" alt="icon"></img>
           </div>
           <div className="input-type-property locality">
             <span >Locality</span>
-            <img src="images/polygon 8.svg"></img>
+            <img src="images/polygon 8.svg" alt="icon"></img>
           </div>
           <button style={{ backgroundColor: "#26AAF3" }}>
-            {" "}
-            <img src="images/search icon.svg"></img>
+            <img src="images/search icon.svg" alt="icon"></img>
           </button>
         </div>
 
         <div className="input-type-property flex">
           <div >
             <input type="radio" placeholder="apartment"></input>
-            <span  >Apartment</span>
+            <span> Apartment</span>
           </div>
-          <div style={{paddingRight:"30px"}}>
+          <div style={{ paddingRight: "30px" }}>
             <input type="radio" placeholder="apartment"></input>
-            <span >Villa</span>
+            <span> Villa</span>
           </div>
           <div id="plot">
             <input type="radio" placeholder="apartment"></input>
-            <span >Plot</span>
+            <span> Plot</span>
           </div>
         </div>
       </div>

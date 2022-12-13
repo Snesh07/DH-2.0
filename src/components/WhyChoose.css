@@ -1,0 +1,47 @@
+.why_choose {
+    position: relative;
+    margin-top: 50px;
+    object-fit: contain;
+    align-items: center;
+}
+
+.why_choose h2 {
+    font-size: 35px;
+    font-weight: 800;
+    color: black;
+}
+
+.why_choose_cards {
+    display: flex;
+    margin: 0 16% 0 16%;
+    align-content: center;
+    object-fit: contain;
+}
+
+.why_choose_cardbox {
+    background-color: rgba(172, 212, 247, 0.2);
+    margin: 0 20px;
+    height: 160px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 10%;
+    object-fit: contain;
+}
+
+.why_choose_cardbox img {
+    width: auto;
+    height: 45%;
+    margin-top: 20px;
+}
+
+.why_choose_cardbox h5 {
+    color: #114765;
+    font-size: 15px;
+    margin: 15px 0 0 0;
+}
+
+.why_choose_cardbox p {
+    color: #000;
+    font-size: 15px;
+    margin-top: 5px;
+}

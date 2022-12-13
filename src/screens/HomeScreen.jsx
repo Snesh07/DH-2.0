@@ -1,13 +1,18 @@
 import React from 'react'
-import { BannerSlider } from '../components/BannerSlider';
+
+import Caroseulslider from '../components/Caroseulslider';
 import { Navbar } from '../components/Navbar'
+import { countries } from "../components/Images4Banner.js";
 
 export const HomeScreen = () => {
   return (
     <>
         <div className='homeScreen'>
-            <Navbar />
-            <BannerSlider />
+          
+           <Navbar />
+          
+           <Caroseulslider images={countries}/>
+            
         </div>
     </>
   );

@@ -1,0 +1,56 @@
+.exprop-wrapper{
+    background-color:  #114765;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 200px;
+   height: 100px;
+   border-radius: 20px;
+}
+
+.exprop-wrapper h1{
+   margin: 0;
+  font-weight: 300;
+}
+.exprop-wrapper  div span{
+    color: white;
+    font-weight: 100;
+    font-size: 15px;
+}
+.exprop-wrapper .search-wrapper span{
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+   
+}
+h2{
+   
+        font-size: 35px;
+        font-weight: 800;
+        color: black;
+}
+.ex-prop-images{
+    margin: 0 50px;
+}
+.ex-prop-images img{
+    height:250px;
+    border-radius: 11px;
+   
+    
+}
+.ex-prop-images div{
+    margin: 20px;
+}
+.ex-prop-images h4{
+   
+        font-size: 20px;
+        font-weight: 700;
+        color: black;
+        margin: 0;
+        margin-bottom: 8px;
+}
+.ex-prop-images span{
+    font-size: 15px;
+   
+}
+

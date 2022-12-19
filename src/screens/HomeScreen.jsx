@@ -1,20 +1,19 @@
-import React from 'react'
+import React from "react";
 
-import Caroseulslider from '../components/Caroseulslider';
-import { Navbar } from '../components/Navbar'
-import { countries } from "../components/Images4Banner.js";
-import { WhyChoose } from '../components/WhyChoose';
+import Caroseulslider from "../components/Caroseulslider";
+import { Navbar } from "../components/Navbar";
+import { bannerimages, searchcardimages } from "../components/Images4Banner.js";
+import { WhyChoose } from "../components/WhyChoose";
+import ExProp from "../components/ExProp";
+import SearchCard from "../components/SearchCard.jsx";
 
 export const HomeScreen = () => {
   return (
     <>
-        <div className='homeScreen'>
-          
-           <Navbar />          
-           <Caroseulslider images={countries}/>
-           <WhyChoose />
-            
-        </div>
+      <Navbar />
+      <Caroseulslider images={bannerimages} />
+      <WhyChoose />
+      <ExProp />
     </>
   );
-}
+};

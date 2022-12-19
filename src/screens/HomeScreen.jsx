@@ -7,25 +7,13 @@ import { WhyChoose } from "../components/WhyChoose";
 import ExProp from "../components/ExProp";
 import SearchCard from "../components/SearchCard.jsx";
 
-
 export const HomeScreen = () => {
   return (
     <>
-<<<<<<< Updated upstream
       <Navbar />
       <Caroseulslider images={bannerimages} />
       <WhyChoose />
       <ExProp />
-=======
-        <div className='homeScreen'>
-          
-           <Navbar />
-          
-           <Caroseulslider images={countries}/>
-          
-            
-        </div>
->>>>>>> Stashed changes
     </>
   );
 };

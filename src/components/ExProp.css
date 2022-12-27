@@ -45,11 +45,14 @@ h2{
    
         font-size: 20px;
         font-weight: 700;
-        color: black;
+        color: #114765;
+
         margin: 0;
-        margin-bottom: 8px;
+        margin-bottom: 4px;
 }
 .ex-prop-images span{
+    color:black;
+    font-weight: 300;
     font-size: 15px;
    
 }

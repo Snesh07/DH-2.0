@@ -52,8 +52,8 @@ export const bannerimages = [
       bedrooms:"1",
       bathrooms:"1",
       furnishing_status:"furnished",
-      registration_status:"unregistered"
-      
+      registration_status:"unregistered",
+      construction_status:"constructed"
      
     },
     {
@@ -65,8 +65,8 @@ export const bannerimages = [
       bedrooms:"1",
       bathrooms:"1",
       furnishing_status:"furnished",
-      registration_status:"unregistered"
-     
+      registration_status:"unregistered",
+      construction_status:"constructed"
     },
     {
       image: "images/search prop3.svg",
@@ -77,8 +77,8 @@ export const bannerimages = [
       bedrooms:"1",
       bathrooms:"1",
       furnishing_status:"furnished",
-      registration_status:"unregistered"
-     
+      registration_status:"unregistered",
+      construction_status:"constructed"
     },
    
   ];
